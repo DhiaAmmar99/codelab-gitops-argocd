@@ -1,8 +1,8 @@
-# Backend configuration
+# Backend git config --global user.emailconfiguration
 backend:
-  name: # TODO - Nommer votre application backend
-  image: # TODO - Mettre l'image à déployer
-  containerPort: # TODO - Précisez le port d'écoute du conteneur
-  host: # TODO - Précisez l'hôte d'exposition du backend
+  name: backendhia
+  image: docker.io/rkaeffer/codelab-gitops-backend:1.0.0
+  containerPort: 8080
+  host: jcotard-backend.codelab.cloud-sp.eu
   service:
-    port: # TODO - Précisez le port d'exposition du service de votre pod
+    port: 443
